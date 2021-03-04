@@ -35,7 +35,12 @@ body> aside{
     text-decoration: none;
     list-style: none;
     top: 50px;
+    color: rgb(0, 0, 39);
+}
 
+.container img {
+    position: relative;
+    left: 50px;
 }
 
 .container li:hover{
@@ -50,32 +55,42 @@ body> aside{
 }
 
 .main .title{
-    /* background:whitesmoke; */
-    margin: 2px 100px;
+    background:rgb(121, 121, 121);
+    opacity: 0.8;
+    width: 450px;
+    height: 70px;
+    margin: 150px 100px;
 }
 .main .titulo{
-    /* background:whitesmoke; */
+    font-size: 4rem;
     /* margin: 22px 100px; */
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center;*/
+    opacity: 1;
     position: relative;
-    top: -3px;
+    top: -40px;
+    left: -30px;
 }
 
 .main .subtitle{
-    /* width: 50px; */
-    margin: 20px 150px; 
+    /* margin: 20px 150px;  */
     color: white;
-    /* right: -280px; */
+    position: relative;
+    right: -250px;
+    bottom: 100px;
 
 }
 .main .redes{
     position: relative;
-    top: 520px;
-    left: -560px;
+    top: 260px;
+    left: -500px;
 } 
+
+.main .redes > img {
+    margin-left: 25px;
+}
 
 .main  .redes{
     display: flex;
@@ -86,11 +101,11 @@ body> aside{
 
 .main .pie{
     position: relative;
-    top: 470px;
+    top: 200px;
     color: whitesmoke;
     right: -600px;
-
 }
+
 
 aside{
     width: 300px;
@@ -107,7 +122,6 @@ aside .info .raya {
 aside .info section{
     margin: 50px;
 }
-
 
 
 
