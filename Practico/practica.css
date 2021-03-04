@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    background-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body > div {
+    float: left;
+}
+
+body> aside{
+    float: left;
+}
+.container {
+    /* background-color: rgb(255, 255, 255); */
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container li {
+    margin: 80px;
+    transform: rotateZ(-90deg);
+    text-decoration: none;
+    list-style: none;
+    top: 50px;
+
+}
+
+.container li:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(152, 0, 253);
+}
+.main{
+    background-image:url(imagenes/Main_Picture.png) ;
+    background-size: 700px 100vh;
+    width: 700px;
+    height: 100vh;
+}
+
+.main .title{
+    /* background:whitesmoke; */
+    margin: 2px 100px;
+}
+.main .titulo{
+    /* background:whitesmoke; */
+    /* margin: 22px 100px; */
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -3px;
+}
+
+.main .subtitle{
+    /* width: 50px; */
+    margin: 20px 150px; 
+    color: white;
+    /* right: -280px; */
+
+}
+.main .redes{
+    position: relative;
+    top: 520px;
+    left: -560px;
+} 
+
+.main  .redes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.main .pie{
+    position: relative;
+    top: 470px;
+    color: whitesmoke;
+    right: -600px;
+
+}
+
+aside{
+    width: 300px;
+    height: 100vh;
+}
+
+aside .info .raya {
+
+    border-top: 1px solid rgb(109, 109, 109);
+    height: 2px;
+    color: rgb(163, 163, 163);
+}
+
+aside .info section{
+    margin: 50px;
+}
+
+
+
+
