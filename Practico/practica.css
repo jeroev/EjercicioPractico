@@ -21,7 +21,7 @@ body> aside{
 }
 .container {
     /* background-color: rgb(255, 255, 255); */
-    width: 200px;
+    width: 15%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ body> aside{
     align-items: center;
     border-right: 1px solid rgb(109, 109, 109);
     position: relative;
-    right: 50px;
+    right: 2%;
     height: 100vh;
 
 }
@@ -39,13 +39,13 @@ body> aside{
     transform: rotateZ(-90deg);
     text-decoration: none;
     list-style: none;
-    top: 50px;
+    top: 1%;
     color: rgb(0, 0, 39);
 }
 
 .container img {
     position: relative;
-    left: 50px;
+    left: 30%;
 }
 
 .container li:hover{
@@ -54,20 +54,20 @@ body> aside{
 }
 .main{
     background-image:url(imagenes/Main_Picture.png) ;
-    background-size: 700px 100vh;
-    width: 700px;
+    background-size: 100% 100vh;
+    width: 55%;
     height: 100vh;
 }
 
 .main .title{
     background:rgb(201, 141, 141);
     opacity: 0.8;
-    width: 450px;
-    height: 70px;
-    margin: 150px 100px;
+    width: 50%;
+    height: 10%;
+    margin: 15% 20%;/*150px 100px;*/
 }
 .main .titulo{
-    font-size: 4rem;
+    font-size: 3rem;
     /* margin: 22px 100px; */
     /* margin-bottom: 0; */
     color: rgb(255, 255, 255);
@@ -75,27 +75,27 @@ body> aside{
     justify-content: center;*/
     opacity: 1;
     position: relative;
-    top: -40px;
-    left: -30px;
+    top: -25%;
+    left: -8%;
 }
 
 .main .subtitle{
     /* margin: 20px 150px;  */
     color: white;
     position: relative;
-    right: -250px;
-    bottom: 100px;
+    right: -45%;
+    bottom: 70%;
     font-style: italic;
 
 }
 .main .redes{
     position: relative;
-    top: 260px;
-    left: -500px;
+    top: 50%;
+    left: -70%;
 } 
 
 .main .redes > img {
-    margin-left: 25px;
+    margin-left: 5%;
 }
 
 .main  .redes{
@@ -107,27 +107,30 @@ body> aside{
 
 .main .pie{
     position: relative;
-    top: 200px;
     color: whitesmoke;
-    right: -580px;
+    right: -80%;
+    margin-top: 42%;
     color: rgb(72, 72, 75);
 }
 
 
 aside{
-    width: 380px;
+    width: 30%;
     height: 100vh;
 }
 
 aside .info .raya {
 
     border-top: 1px solid rgb(109, 109, 109);
-    height: 2px;
+    height: 1%;
     color: rgb(163, 163, 163);
 }
 
 aside .info section{
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4.5%;
 }
 
 
